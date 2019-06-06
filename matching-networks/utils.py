@@ -13,8 +13,8 @@ from tqdm import tqdm
 
 def read_omniglot():
     """Read omniglot dataset, save them to a single npy file"""
-    omniglot_train = '/home/one-shot-dataset/omniglot/python/images_background' 
-    omniglot_eval = '/home/one-shot-dataset/omniglot/python/images_evaluation' 
+    omniglot_train = 'img/images_background'
+    omniglot_eval = 'img/images_evaluation'
     
     data = []
     for r in [omniglot_train, omniglot_eval]:
@@ -50,7 +50,7 @@ class Data_loader():
         #omniglot = np.load('data_zergylord.npy')
         #omniglot = np.reshape(omniglot, [-1, 20, 28, 28, 1])
         np.random.shuffle(omniglot)
-        assert omniglot.dtype == np.float32
+        assert omniglot.dtype == np.float64
         assert omniglot.max() == 1.0
         assert omniglot.min() == 0.0
 

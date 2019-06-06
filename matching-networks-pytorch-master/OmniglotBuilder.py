@@ -116,6 +116,8 @@ class OmniglotBuilder:
 
             total_c_loss = total_c_loss / total_train_batches
             total_accuracy = total_accuracy / total_train_batches
+
+            torch.save(self.matchNet.state_dict(), "./model.pth")
             return total_c_loss, total_accuracy
 
     def _create_optimizer(self, model, lr):
