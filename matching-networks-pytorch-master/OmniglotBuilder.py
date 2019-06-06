@@ -223,7 +223,7 @@ class OmniglotBuilder:
 
                 # TODO: update learning rate?
 
-                iter_out = "val_loss: {}, val_accuracy: {}".format(c_loss.data[0], acc.data[0])
+                iter_out = "val_loss test: {}, val_accuracy test: {}".format(c_loss.data[0], acc.data[0])
                 pbar.set_description(iter_out)
                 pbar.update(1)
                 total_c_loss += c_loss.data[0]
