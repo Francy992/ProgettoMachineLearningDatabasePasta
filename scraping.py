@@ -168,7 +168,7 @@ def scraping_test(end_path, path_project):
 
 
 sito = 'http://www.barillastudio.it/'
-sito_inizale = 'products.php?idf=12'
+sito_inizale = 'products.php?idf=11'
 
 array_level = []
 
