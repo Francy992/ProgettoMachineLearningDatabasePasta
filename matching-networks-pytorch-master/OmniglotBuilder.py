@@ -95,8 +95,7 @@ class OmniglotBuilder:
                 x_support_set = x_support_set.permute(0, 1, 4, 2, 3)
                 x_target = x_target.permute(0, 3, 1, 2)
                 if self.isCuadAvailable & self.use_cuda:
-                    acc, c_loss = self.matchNet(x_support_set.cuda(), y_support_set_one_hot.cuda(), x_target.cuda(),
-                                                y_target.cuda())
+                    acc, c_loss = self.matchNet(x_support_set.cuda(), y_support_set_one_hot.cuda(), x_target.cuda(),                          y_target.cuda())
                 else:
                     acc, c_loss = self.matchNet(x_support_set, y_support_set_one_hot, x_target, y_target)
 
