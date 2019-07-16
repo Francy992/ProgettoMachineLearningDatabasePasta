@@ -2,7 +2,7 @@ import torch.nn as nn
 
 class AlexNet(nn.Module):
 
-    def __init__(self, num_classes=3):
+    def __init__(self, num_classes=152):
         super(AlexNet, self).__init__()
         self.features = nn.Sequential(
             nn.Conv2d(3, 64, kernel_size=11, stride=4, padding=2),
@@ -30,10 +30,10 @@ class AlexNet(nn.Module):
             nn.Linear(4096, num_classes),
         )
 
-    def forward(self, x):
+    def forward(self, x, train = True):
         x = self.features(x)
         x = self.avgpool(x)
         x = x.view(x.size(0), 256 * 6 * 6)
-        x = self.classifier(x)
+        if train: x = self.classifier(x)
         return x
 
