@@ -19,12 +19,12 @@ def get_name(path):
     index = path_list.index("pack")
     #Il nuovo path sarà costituito dal nome del percorso a partire dal pack in modo da non avere duplicati.
     name = ""
-    for i in range(index+1, len(path_list)-1):
+    for i in range(index+1, len(path_list)):
         prov_name = path_list[i].replace(" ", "")
         name += prov_name + "_"    
     #Tolgo l'ultimo trattino
     print(name)
-    name = name[:-1]
+    name = name[:-5]
     return name
 
 def get_classes(path):
@@ -65,23 +65,22 @@ def start(path): #path è sempre un path globale.
             name_1 = get_name(path_1)
             #Copio le immagini e le rinomino.
 			#Apro l'immagine e la salvo in un'altro path.
-			img_path_0 = Image.open(path_0)
-			img_path_1 = Image.open(path_1)
-
-			for i in range(0, 8):
-				new_image_path_0 = img_path_0.rotate(i*45)
-				new_image_path_1 = img_path_1.rotate(i*45)
-				save_image(new_image_path_0, name_0 + str(i*45) + ".png")
-				save_image(new_image_path_1, name_1 + str(i*45) + ".png")
+            img_path_0 = Image.open(path_0)
+            img_path_1 = Image.open(path_1)
+            for i in range(0, 8):
+                new_image_path_0 = img_path_0.rotate(i*45, expand = True)
+                new_image_path_1 = img_path_1.rotate(i*45, expand = True)
+                save_image(new_image_path_0, name_0 + str(i*45) + ".png")
+                save_image(new_image_path_1, name_1 + str(i*45) + ".png")
 				#Aggiungo la riga nel file.
-				str_0 = name_0 + str(i*45) + ".png" + ", " + str(num_class) + "\n"
-				str_1 = name_1 + str(i*45) + ".png" + ", " + str(num_class) + "\n"
-				if rand == 0:
-					test.write(str_0)
-					train.write(str_1)
-				else:
-					train.write(str_0)
-					test.write(str_1)
+                str_0 = name_0 + str(i*45) + ".png" + ", " + str(num_class) + "\n"
+                str_1 = name_1 + str(i*45) + ".png" + ", " + str(num_class) + "\n"
+                if rand == 0:
+                    test.write(str_0)
+                    train.write(str_1)
+                else:
+                    train.write(str_0)
+                    test.write(str_1)
             print("Ho finito di salvare")
             
             #Salvo la classe:
@@ -98,33 +97,33 @@ def start(path): #path è sempre un path globale.
             name_0 = get_name(path_0)
             name_1 = get_name(path_1)
             name_2 = get_name(path_2)
-
-			img_path_0 = Image.open(path_0)
-			img_path_1 = Image.open(path_1)
-			img_path_2 = Image.open(path_2)
-
-			for i in range(0, 8):
-				new_image_path_0 = img_path_0.rotate(i*45)
-				new_image_path_1 = img_path_1.rotate(i*45)
-				new_image_path_2 = img_path_2.rotate(i*45)
-				save_image(new_image_path_0, name_0 + str(i*45) + ".png")
-				save_image(new_image_path_1, name_1 + str(i*45) + ".png")
-				save_image(new_image_path_2, name_2 + str(i*45) + ".png")
+            
+            img_path_0 = Image.open(path_0)
+            img_path_1 = Image.open(path_1)
+            img_path_2 = Image.open(path_2)
+            
+            for i in range(0, 8):
+                new_image_path_0 = img_path_0.rotate(i*45, expand = True)
+                new_image_path_1 = img_path_1.rotate(i*45, expand = True)
+                new_image_path_2 = img_path_2.rotate(i*45, expand = True)
+                save_image(new_image_path_0, name_0 + str(i*45) + ".png")
+                save_image(new_image_path_1, name_1 + str(i*45) + ".png")
+                save_image(new_image_path_2, name_2 + str(i*45) + ".png")
 				#Aggiungo la riga nel file.
-				str_0 = name_0 + str(i*45) + ".png" + ", " + str(num_class) + "\n"
-				str_1 = name_1 + str(i*45) + ".png" + ", " + str(num_class) + "\n"
-				str_2 = name_2 + str(i*45) + ".png" + ", " + str(num_class) + "\n"
+                str_0 = name_0 + str(i*45) + ".png" + ", " + str(num_class) + "\n"
+                str_1 = name_1 + str(i*45) + ".png" + ", " + str(num_class) + "\n"
+                str_2 = name_2 + str(i*45) + ".png" + ", " + str(num_class) + "\n"
 				#Scrivo il file
-				if rand == 0:
-					test.write(str_0)
-					train.write(str_1)
-					train.write(str_2)
-				else:
-					train.write(str_0)
-					train.write(str_2)
-					test.write(str_1)
+                if rand == 0:
+                    test.write(str_0)
+                    train.write(str_1)
+                    train.write(str_2)
+                else:
+                    train.write(str_0)
+                    train.write(str_2)
+                    test.write(str_1)
             print("Ho finito di salvare")
-			num_class += 1
+            num_class += 1
 			#Salvo la classe:
             classes = get_classes(path_0)
             classes_file.write(classes + "\n")
