@@ -1,3 +1,0 @@
-Fusilli_5_Cereali_Right.png, 0
-Pennette_Rigate_5_Cereali_Left.png, 1
-Spaghetti_5_Cereali_Front.png, 2
