@@ -1,0 +1,4 @@
+Mealsolution_Barilla_Bio_Farinabiotipo21000g_Front.png, 0
+Mealsolution_Barilla_Bio_Fusillibio500g_Front.png, 1
+Mealsolution_Barilla_Bio_Pennerigatebio500g_Front.png, 2
+Mealsolution_Barilla_Bio_Spaghetti5bio500g_Right.png, 3

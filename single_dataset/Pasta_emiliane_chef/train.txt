@@ -1,0 +1,3 @@
+Mealsolution_Foodservice_Ambient_Pasta_emiliane_chef_Lasagneall'uovo500g_Left.png, 127
+Mealsolution_Foodservice_Ambient_Pasta_emiliane_chef_Lasagneall'uovo500g_Right.png, 127
+Mealsolution_Foodservice_Ambient_Pasta_emiliane_chef_Lasagneuovo500gomaggio_Left.png, 128

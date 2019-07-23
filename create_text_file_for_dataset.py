@@ -15,6 +15,7 @@ classes_file = open("classes.txt", "w+")
 path_new_image = "C:\Git\progetto_machine_learning_pasta\\new_image"
 
 def get_name(path):
+    print("Path-->", path)
     path_list = path.split(os.sep)
     index = path_list.index("pack")
     #Il nuovo path sarà costituito dal nome del percorso a partire dal pack in modo da non avere duplicati.
@@ -36,11 +37,11 @@ def get_classes(path):
 
 def save_image(original_path, name):
     #Apro l'immagine e la salvo in un'altro path.
-    img = Image.open(original_path)#Copio l'immagine e la rinomino. Forse.
+    #img = Image.open(original_path)#Copio l'immagine e la rinomino. Forse.
     print("Dopo")
     global path_new_image
     print("Final name: ", path_new_image+"\\"+name)
-    img.save(path_new_image+"\\"+name)
+    #img.save(path_new_image+"\\"+name)
 
 
 def start(path): #path è sempre un path globale.
