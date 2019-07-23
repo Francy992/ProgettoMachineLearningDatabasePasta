@@ -1,0 +1,15 @@
+Barbine500g, 99
+Cellentani500g, 100
+Fusillibucaticorti500g, 101
+Gnocchettisardi500g, 102
+Orecchiette500g, 103
+Reginette500g, 104
+Ruote500g, 105
+Spaghettiquadrati500g, 106
+Spaghettirigati500g, 107
+Tagliatelle500g, 108
+Trofie500g, 109
+Ziti500g, 110
+Calamarata, 149
+Paccheri, 150
+Ziti, 151

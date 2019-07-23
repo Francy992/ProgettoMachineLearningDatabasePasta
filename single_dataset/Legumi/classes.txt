@@ -1,6 +1,6 @@
-Casareccediceci250g, 17
-Fusillidilenticchierosse250g, 18
-Legumottilenticchiececi300g, 19
-Legumottilenticchiececipiselli300g, 20
-Legumottilenticchiepiselli300g, 21
-Pennedilenticchierosse250g, 22
+Casareccediceci250g, 0
+Fusillidilenticchierosse250g, 1
+Legumottilenticchiececi300g, 2
+Legumottilenticchiececipiselli300g, 3
+Legumottilenticchiepiselli300g, 4
+Pennedilenticchierosse250g, 5

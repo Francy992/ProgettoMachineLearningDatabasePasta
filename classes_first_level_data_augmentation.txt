@@ -1,0 +1,17 @@
+Bio, 0
+Cereali, 1
+Farina_semola_pizza, 2
+Legumi, 3
+PASTA_UOVO_5_CEREALI, 4
+Pasta_all'uovo_ripiena, 5
+Pasta_5_Cereali, 6
+Pasta_box, 7
+Pasta_integrale, 8
+Pasta_piccolini, 9
+Pasta_special_pack, 10
+Pasta_specialità, 11
+senza_glutine, 12
+Sughi, 13
+Pasta_emiliane_chef, 14
+Pasta_Base, 15
+Pasta_Integrale, 16

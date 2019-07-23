@@ -1,4 +1,4 @@
-Pennelisce711kgconvenienza, 95
-Pennerigate731kgconvenienza, 96
-Spaghettini31kgconvenienza, 97
-Tortiglioni831kgconvenienza, 98
+Pennelisce711kgconvenienza, 0
+Pennerigate731kgconvenienza, 1
+Spaghettini31kgconvenienza, 2
+Tortiglioni831kgconvenienza, 3

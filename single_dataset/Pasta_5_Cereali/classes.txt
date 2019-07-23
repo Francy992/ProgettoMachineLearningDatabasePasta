@@ -1,3 +1,3 @@
-Fusilli5cereali, 31
-Pennetterigate5cereali, 32
-Spaghetti5cereali, 33
+Fusilli5cereali, 0
+Pennetterigate5cereali, 1
+Spaghetti5cereali, 2

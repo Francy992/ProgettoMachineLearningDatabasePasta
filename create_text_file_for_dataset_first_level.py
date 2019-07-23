@@ -52,6 +52,7 @@ def save_image(original_path, name, only_one_image = False):
     #print("Dopo")
     #Salvo la classe nel caso in cui fosse una nuova classe..
     global classes_first_level_set
+    global num_class
     #print("Path-->", original_path)
     path_list = original_path.split(os.sep)
     current_class = path_list[len(path_list)-3].replace(" ", "_")
@@ -63,7 +64,9 @@ def save_image(original_path, name, only_one_image = False):
         classes_first_level_set.append(current_class)
         #Creo la cartella dentro single_database per salvare le immagini di questa classe
         try:
-            os.makedirs(path_all_single_image + "\\" +  current_class)      
+            os.makedirs(path_all_single_image + "\\" +  current_class)   
+            num_class = 0   
+            print("Ho azzerato num_class, adesso vale: ", num_class)
         except:
             print("Errore")  
     index = -1
