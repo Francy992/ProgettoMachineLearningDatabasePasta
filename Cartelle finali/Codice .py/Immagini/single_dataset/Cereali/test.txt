@@ -1,0 +1,5 @@
+Mealsolution_Barilla_Cereali_5cereali_Front.png, 0
+Mealsolution_Barilla_Cereali_Cerealiquinoa_Front.png, 1
+Mealsolution_Barilla_Cereali_Couscous500g_Right.png, 2
+Mealsolution_Barilla_Cereali_Farro_Front.png, 3
+Mealsolution_Barilla_Cereali_Orzo_Front.png, 4

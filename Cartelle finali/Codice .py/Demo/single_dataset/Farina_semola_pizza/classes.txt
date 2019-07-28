@@ -1,0 +1,8 @@
+Farina0manitoba1000g, 0
+Farina001000g, 1
+Farina00500g, 2
+Farina005kg, 3
+Farinafardello4Kg, 4
+Farinaintegrale1000g, 5
+Miscelatorte1000g, 6
+Semolarimacinata1000g, 7

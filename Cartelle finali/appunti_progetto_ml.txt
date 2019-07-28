@@ -1,0 +1,171 @@
+TODO:
+		AGGIUNGERE POSSIBILITA DI STAMPARE STATISTICHE KNN.
+	
+	Accuracy di train senza dataaugmentation: accuracy:  0.9470198675496688
+	Accuracy di test senza dataaugmentation: accuracy:  0.9273127753303965
+	
+	-- Provare a creare il dataset piccolo con la classe pastaintegrale nuova e provare ad allenare per quello
+	-- Completare allenamento classi mancanti a partire da pasta integrale sul dataset completo.
+	
+	
+	Interventi da fare:
+	
+	
+	Riallenando da zero SENZA i parametri precaricati 
+		- Senza data augmentation:
+			Train:
+				Accuracy--> 0.73
+				Precision_score-->0.662844611528822
+				Recall_score-->0.7236842105263158
+				F1_Score-->0.6662242728032202
+			Test:
+				Accuracy--> 0.23
+				Precision_score-->0.14742324561403508
+				Recall_score-->0.23026315789473684
+				F1_Score-->0.1681286549707602				
+				
+		- Con data augmentation
+			Train:
+				Accuracy--> 0.98
+				Precision_score-->0.9782688179864785
+				Recall_score--> 0.9769736842105263
+				F1_Score--> 0.9739270228685475
+			Test:
+				Accuracy-->  0.69
+				Precision_score--> 0.7186494595768009
+				Recall_score--> 0.6875
+				F1_Score-->		 0.6624812623629627
+				
+				
+				
+				
+	Riallenando l'ultimo layer con parametri precaricati
+		- Senza data augmentation
+			Train:
+				Accuracy--> 0.99
+				Precision_score-->0.9901315789473685
+				Recall_score-->0.993421052631579
+				F1_Score-->0.9912280701754386
+			Test:
+				Accuracy--> 0.62
+				Precision_score--> 0.5679824561403508
+				Recall_score-->0.625
+				F1_Score-->0.5853070175438596			
+		- Con data augmentation
+			Train:
+				Accuracy--> 0.99
+				Precision_score--> 0.9891750790805703
+				Recall_score--> 0.9876644736842105
+				F1_Score--> 0.9876259287459211
+			Test:
+				Accuracy--> 0.57
+				Precision_score--> 0.6328272312447757
+				Recall_score--> 0.5740131578947368
+				F1_Score-->	0.5702898998208803
+				
+				
+	Riallenando gli ultimi due layer con parametri precaricati
+		- Senza data augmentation
+			Train:
+				Accuracy--> 1.00
+				Precision_score-->0.9978070175438598
+				Recall_score-->0.996710526315789
+				F1_Score-->0.9964912280701754
+			Test:
+				Accuracy--> 0.66
+				Precision_score-->0.6120614035087719
+				Recall_score-->0.6578947368421053
+				F1_Score-->0.62468671679198
+				
+		- Con data augmentation
+			Train:
+				Accuracy--> 1.00
+				Precision_score--> 0.9976780185758513
+				Recall_score--> 0.9975328947368421
+				F1_Score--> 0.9975163348253332
+			Test:
+				Accuracy--> 0.60
+				Precision_score--> 0.6332078694303722
+				Recall_score--> 0.5970394736842105
+				F1_Score-->	 0.5956866784689481
+	
+	
+	
+	Feature estratte con alexnet senza riallenata e multilayer percettron sulle feature--> 2 tipologie --> Scarso
+		- Senza data augmentation
+			Accuracy train--> 0.01
+			Accuracy test --> 0.00
+			
+		- Con data augmentation
+			Accuracy train--> 0.00
+			Accuracy test --> 0.00
+			
+			
+	
+	Quello attuale --> Alexnet per classificare il package con x epoche e 17 classi finali e squeeznet perchè migliora l'accuracy per classificare la parte sotto.
+						Elenco completo classi:
+						'Bio': 4,
+						'Cereali': 5,              
+						'Farina_semola_pizza': 8,
+						'Legumi': 6,
+						'Pasta_5_Cereali': 3,
+						'Pasta_all\'uovo_ripiena': 6,
+						'Pasta_Base': 18,
+						'Pasta_box': 47,
+						'Pasta_emiliane_chef': 2,    
+						'Pasta_integrale': 8,
+						'Pasta_integrale_voiello': 2,
+						'Pasta_piccolini': 6,              
+						'Pasta_special_pack': 4,
+						'Pasta_specialita': 15,
+						'PASTA_UOVO_5_CEREALI': 2,
+						'senza_glutine': 9,
+						'Sughi': 7,
+						
+						
+						Accuracy riallenamento per i sottopackage in test senza data_augmentation:
+						- Bio: 1.00
+						- Cereali: 1.00
+						- Farina semola pizza: 1.00
+						- Legumi: 1.00
+						- Pasta 5 cereali: 1.00
+						- Pasta all'uovo ripiena: 1.00
+						- Pasta base: 0.94
+						- Pasta box: 0.89
+						- Pasta emiliane chef: 1.00
+						- Pasta integrale: 0.75 
+						- Pasta integrale voiello: 1.00
+						- Pasta piccolini: 1.00
+						- Pasta special pack: 1.00
+						- Pastas specialita: 0.93
+						- Pasta uovo 5 cereali: 0.50
+						- Senza glutine: 1.00
+						- Sughi: 1.00
+						-- Accuracy totale su train:
+						-- Accuracy totale in test:
+						-- Accuracy globale: 
+						
+						
+						
+						
+						Accuracy riallenamento per i sottopackage in test con data_augmentation:
+						- Bio: 1.00
+						- Cereali: 1.00
+						- Farina semola pizza: 0.92
+						- Legumi: 1.00
+						- Pasta 5 cereali: 1.00
+						- Pasta all'uovo ripiena: 0.98
+						- Pasta base: 0.94
+						- Pasta box: 0.90
+						- Pasta emiliane chef: 1.00
+						- Pasta integrale: 0.88
+						- Pasta integrale voiello: 1.00
+						- Pasta piccolini: 0.98
+						- Pasta special pack: 0.94
+						- Pastas specialita: 1.00
+						- Pasta uovo 5 cereali: 0.50
+						- Senza glutine: 0.99
+						- Sughi: 0.98
+						-- Accuracy totale su train:
+						-- Accuracy totale in test:
+						-- Accuracy globale: 

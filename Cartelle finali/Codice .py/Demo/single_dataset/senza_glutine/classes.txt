@@ -1,0 +1,9 @@
+SGbavettelinguine400g, 0
+SGditalinirigati400g, 1
+SGfusilli400g, 2
+SGpennerigate400g, 3
+SGpreparatodolci500g, 4
+SGpreparatopane500g, 5
+SGspaghetti5400g, 6
+SGtagliatelle300g, 7
+SGtortiglioni400g, 8

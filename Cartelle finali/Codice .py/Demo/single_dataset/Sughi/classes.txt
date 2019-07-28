@@ -1,0 +1,7 @@
+Pestatomelanzane, 0
+Pestatopomodorisecchi, 1
+Pestatoverduremediterranee, 2
+Raguclassico180gx2cluster, 3
+Ragufunghi180gx2cluster, 4
+Ragusalsiccia180gx2cluster, 5
+Raguspeck180gx2cluster, 6

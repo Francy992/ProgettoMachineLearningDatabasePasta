@@ -1,0 +1,6 @@
+Cappelletticarne250g, 0
+Cappelletticarne500g, 1
+Tortelliniprosciuttocrudo250g, 2
+Tortelliniprosciuttocrudo500g, 3
+Tortellonicrudoparmigiano250g, 4
+Tortelloniricottaspinaci250g, 5

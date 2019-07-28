@@ -1,0 +1,4 @@
+Mealsolution_Voiello_PastaIntegrale_Fusilliint141_Front.png, 0
+Mealsolution_Voiello_PastaIntegrale_Fusilliint141_Left.png, 0
+Mealsolution_Voiello_PastaIntegrale_Pennerigateint155_Left.png, 1
+Mealsolution_Voiello_PastaIntegrale_Pennerigateint155_Right.png, 1

@@ -1,0 +1,8 @@
+Casarecceint, 0
+Cellentaniint, 1
+Farfalleint, 2
+Fusilliint, 3
+Linguineint, 4
+Spaghettiint, 5
+Spaghettiniint, 6
+Tortiglioniint, 7

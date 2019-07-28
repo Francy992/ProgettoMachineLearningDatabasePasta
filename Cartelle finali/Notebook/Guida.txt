@@ -1,0 +1,1 @@
+Per far andare i notebook copiare la struttura delle immagini presenti nella cartella immagini all'interno di questa.

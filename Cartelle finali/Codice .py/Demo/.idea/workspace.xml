@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="98b897ae-a7f2-4619-818f-d71219868789" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOMANDE E RISPOSTE ML.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../DOMANDE E RISPOSTE ML.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice_mio/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../codice_mio/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../progetto_machine_learning_pasta" beforeDir="false" afterPath="$PROJECT_DIR$/../progetto_machine_learning_pasta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slides/Lezione 7/BackProbAlgo.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../slides/Lezione 7/BackProbAlgo.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slides/~$puntiStudioMachineLearning.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../~$MANDE E RISPOSTE ML.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../~$MANDE E RISPOSTE ML.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SISTEMI ROBOTICI/CODICE/Codice Mio/cinematica_robot_2ruote.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SISTEMI ROBOTICI/CODICE/Codice Mio/controllers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SISTEMI ROBOTICI/CODICE/Codice Mio/controllo_on_off.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SISTEMI ROBOTICI/CODICE/Codice Mio/controllo_p_saturazione.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SISTEMI ROBOTICI/CODICE/Codice Mio/controllo_proporzionale.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SISTEMI ROBOTICI/CODICE/Codice Mio/es_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SISTEMI ROBOTICI/CODICE/Codice Mio/motor_driver.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SISTEMI ROBOTICI/CODICE/Codice Mio/periodic_task.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SISTEMI ROBOTICI/CODICE/Codice Mio/positione_robot_2ruote.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SISTEMI ROBOTICI/CODICE/Codice Mio/simple_kinematics.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SISTEMI ROBOTICI/CODICE/Codice Mio/speed_control_task.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SISTEMI ROBOTICI/CODICE/controllo_polare.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SISTEMI ROBOTICI/CODICE/primo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SISTEMI ROBOTICI/SLIDE/Discretizzazione.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SISTEMI ROBOTICI/SLIDE/IntroPSR.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SISTEMI ROBOTICI/SLIDE/RispostaSistema.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SISTEMI ROBOTICI/SLIDE/SistemiDinamici.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SISTEMI ROBOTICI/SLIDE/Stabilita.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SISTEMI ROBOTICI/phidias-master/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SISTEMI ROBOTICI/phidias-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SISTEMI ROBOTICI/phidias-master/build/lib/phidias/Agent.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SISTEMI ROBOTICI/phidias-master/build/lib/phidias/Exceptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SISTEMI ROBOTICI/phidias-master/build/lib/phidias/Globals.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SISTEMI ROBOTICI/phidias-master/build/lib/phidias/Knowledge.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SISTEMI ROBOTICI/phidias-master/build/lib/phidias/Lib.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SISTEMI ROBOTICI/phidias-master/build/lib/phidias/Main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SISTEMI ROBOTICI/phidias-master/build/lib/phidias/Runtime.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SISTEMI ROBOTICI/phidias-master/build/lib/phidias/Types.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SISTEMI ROBOTICI/phidias-master/build/lib/phidias/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SISTEMI ROBOTICI/phidias-master/codice_mio/.idea/codice_mio.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SISTEMI ROBOTICI/phidias-master/codice_mio/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SISTEMI ROBOTICI/phidias-master/codice_mio/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SISTEMI ROBOTICI/phidias-master/codice_mio/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SISTEMI ROBOTICI/phidias-master/codice_mio/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SISTEMI ROBOTICI/phidias-master/codice_mio/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SISTEMI ROBOTICI/phidias-master/codice_mio/aereo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SISTEMI ROBOTICI/phidias-master/codice_mio/distributore.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SISTEMI ROBOTICI/phidias-master/codice_mio/esame/esempio_esame.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SISTEMI ROBOTICI/phidias-master/codice_mio/esame/esempio_esame_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SISTEMI ROBOTICI/phidias-master/codice_mio/esame/esercitazione_1_parte1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SISTEMI ROBOTICI/phidias-master/codice_mio/esame/esercitazione_1_parte2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SISTEMI ROBOTICI/phidias-master/codice_mio/parcheggio.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SISTEMI ROBOTICI/phidias-master/lib/phidias/Agent.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SISTEMI ROBOTICI/phidias-master/lib/phidias/Exceptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SISTEMI ROBOTICI/phidias-master/lib/phidias/Globals.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SISTEMI ROBOTICI/phidias-master/lib/phidias/Knowledge.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SISTEMI ROBOTICI/phidias-master/lib/phidias/Lib.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SISTEMI ROBOTICI/phidias-master/lib/phidias/Main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SISTEMI ROBOTICI/phidias-master/lib/phidias/Runtime.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SISTEMI ROBOTICI/phidias-master/lib/phidias/Types.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SISTEMI ROBOTICI/phidias-master/lib/phidias/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SISTEMI ROBOTICI/phidias-master/samples/SHRDLU.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SISTEMI ROBOTICI/phidias-master/samples/calc_max.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SISTEMI ROBOTICI/phidias-master/samples/factorial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SISTEMI ROBOTICI/phidias-master/samples/graduation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SISTEMI ROBOTICI/phidias-master/samples/hello_world.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SISTEMI ROBOTICI/phidias-master/samples/relatives.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SISTEMI ROBOTICI/phidias-master/samples/sieve.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SISTEMI ROBOTICI/phidias-master/samples/sieve_mas.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SISTEMI ROBOTICI/phidias-master/samples/sieve_reactive.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SISTEMI ROBOTICI/phidias-master/setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MediaStud.xls" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MediaStud.xls" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Demo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="163" column="26" lean-forward="true" selection-start-line="163" selection-start-column="26" selection-end-line="163" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>cpu</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Demo.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="35" />
+    <option name="width" value="1440" />
+    <option name="height" value="827" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="98b897ae-a7f2-4619-818f-d71219868789" name="Default Changelist" comment="" />
+      <created>1564144592681</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564144592681</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="827" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="163" column="26" lean-forward="true" selection-start-line="163" selection-start-column="26" selection-end-line="163" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
