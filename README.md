@@ -1,2 +1,2 @@
-# progetto_machine_learning_pasta
+# Machine Learning - Pythorch
 Progetto per esame di machine learning.
